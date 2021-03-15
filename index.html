@@ -1,1 +1,187 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uallesson Nunes</title>
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" arial-label="Close Menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false">
+            <a href="#intro">UALLESSON N.</a>
+        </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#work">Jobs</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#pricing">Valores</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <h2>SITE CRIADO SOMENTE COM HTML E CSS</h2>
+            <p>Este é apenas um conteúdo de teste para meu portfolio, o código estará disponível no GitHub para estudos posteriores.     
+            </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/bg.svg" 
+                alt="Jovem editando um website">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="white-bg section">
+        <div class="main-content about-content">
+            <h2>SOBRE</h2>
+            <p>Olá! me chamo Uallesson Nunes ivo, tenho 26 anos e por cerca de 2 anos e meio venho trabalhando com Web design, porém sempre estive atuando na parte do esboço/layout. Com o uso dos Softwares Figma e Adobe XD criei várias templates e as vendia para empresas de pequeno/médio porte para que essas empresas pudessem contratar um programador para desenvolver a página.
+            </p>
+            <br>
+            <p>Até que em um certo projeto tive a oportunidade de trabalhar com uma equipe de desenvolvedores web, e quando eu vi aqueles códigos e a força que essa comunidade tem me apaixonei rapidamente pela área e desde então venho tentando me aperfeiçoar como programador, atualmente estou cursando um curso full stack em JavaScript - Typescript Para front-end/back-end e aprendendo também o uso de tecnologias do tipo React/React Native, Redux, Express, Node.js..
+            </p>
+        </div>
+    </section>
+    <section id="work" class="grid-one main-bg">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-title">Jobs que eu faço</h2>
+            <p class="grid-description">Um pouco mais sobre meu trabalho</p>
+            <div class="grid">
+                <article>
+                    <h3>LOGO</h3>
+                <p>Trabalho na criação de Logotipo e branding de empresas.<br> Estou me conceituando para posteriormente criar logos de gamers e streamers.</p>
+                </article>
+                <article>
+                    <h3>UI/UX</h3>
+                <p>Assim como mencionei acima, trabalho na parte visual ou na criação conceito de templates para websites, crio todo o layout responsivo baseado nos interesses e descrições que o cliente me fornecer.</p>
+                </article>
+                <article>
+                    <h3>UI Mobile</h3>
+                <p>Estou embarcando no mundo mobile trazendo um pouco do meu conhecimento em UI/UX para criar templates de Apps.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+       <section id="galeria" class="grid-one white-bg">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-title">Galeria</h2>
+            <p class="grid-description">Apenas alguns designs recentes</p>
+            <div class="grid">
+                <div class="galeria-img">
+                    <p>MIAW</p>
+                    <img src="./assets/img/miaw1.png" 
+                    alt="Imagem mostrando um site criado para uma clinica veterianaria">
+                </div>
+                <div class="galeria-img">
+                    <p>MBC</p>
+                    <img src="./assets/img/mbc.png" 
+                    alt="Imagem mostrando um site criado para uma clinica veterianaria">
+                </div>
+                <div class="galeria-img">
+                    <p>MBC</p>
+                    <img src="./assets/img/mbc.png" 
+                    alt="Imagem mostrando um site criado para uma clinica veterianaria">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="main-bg section">
+        <div class="main-content about-content">
+            <h2>VALORES</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>LOGO</th>
+                        <th>SITES</th>
+                        <th>APPS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BASIC</td>
+                            <td>LANDING PAGE</td>
+                            <td>5 SCREEN</td>
+                        </tr>
+                        <tr>
+                            <td>STANDARD</td>
+                            <td>RESPONSIVE</td>
+                            <td>10 SCREEN</td>
+                        </tr>
+                        <tr>
+                            <td>BRANDING</td>
+                            <td>E-COMMERCE</td>
+                            <td>15 SCREEN</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>TITLE</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro white-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <h2>CONTATO</h2>
+            <p>
+                Gostou do que viu até aqui? Entre em contato para tirar suas dúvidas.     
+            </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/contactform.svg" 
+                alt="Jovem editando um website">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email-name" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>       
+    </section>
+    <footer id="footer" class="footer main-bg">
+        <p>Feito com <span class="heart">❤</span> por Uallesson Nunes</p>
+    </footer>
+    <a class="back-to-top" href="#">⇧</a>
+</body>
+</html>
