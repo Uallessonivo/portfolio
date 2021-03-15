@@ -151,8 +151,11 @@
             <img src="./assets/img/contact.svg" alt="Logo de HTML, CSS e JS.">
           </div>
           <div class="contact-form">
+            <form
+              action="https://formspree.io/f/mknpdkyq"
+              method="POST" id="my-form">
             <fieldset class="form-grid">
-    
+              
               <div class="form-group">
                 <label for="first-name">Nome</label>
                 <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
@@ -176,6 +179,7 @@
               <div class="form-group full-width">
                 <button type="submit">Enviar mensagem</button>
               </div>
+              <div id="my-form-status"></div>
             </fieldset>
           </div>  
         </div>
@@ -184,5 +188,6 @@
         <p>Feito com <span class="heart">❤</span> por Uallesson Nunes</p>
     </footer>
     <a class="back-to-top" href="#">⇧</a>
+<script src="./form.js"></script>
 </body>
 </html>
