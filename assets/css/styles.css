@@ -94,6 +94,18 @@
     text-align: center;
 }
 
+.pricing-content {
+    max-width: 64rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+
 .grid-one-content {
     display: flex;
     flex-flow: column wrap;
@@ -275,5 +287,10 @@
         background: var(--primary-color);
         color: var(--white-color);
     }
+
+    .pricing-content {
+        width: 100%;
+    }
+
     
 }
