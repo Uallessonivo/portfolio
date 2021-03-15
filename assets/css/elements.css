@@ -74,10 +74,15 @@ table {
 table td, table th {
     white-space: nowrap;
     padding: 0.5rem;
-    text-align: left;
+    margin: 0.5rem;
+    text-align: center;
     border: 0.1rem solid var(--light-gray-color)   ;
 }
 
-tfoot td, table th{
+table th{
     background: grey;
+}
+
+.table-price th, .table-price td{
+    padding: 0.5rem;
 }
