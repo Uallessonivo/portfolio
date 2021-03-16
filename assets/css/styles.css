@@ -73,13 +73,18 @@
     min-height: 100vh;
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content, .intro-img, .intro-img-contact {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
 .intro-img img {
+    max-width: 100%;
+    min-height: auto;
+}
+
+.intro-img-contact img {
     max-width: 100%;
     min-height: auto;
 }
@@ -275,6 +280,15 @@
 }
 
 @media (max-width: 800px) {
+    .intro-img-contact  {
+        display: none;
+    }
+
+    .about-content {
+        width: 100%;
+        height: 100%;
+    }
+
     .grid-title-mobile, .grid-description-mobile {
         margin-bottom: 1rem;
         text-align: center;
