@@ -142,11 +142,18 @@
     overflow: hidden;
 }
 
-.galeria-img img {
+.grid2 img{
+    width: 50%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+}
+
+.galeria-img img, .galeria-img-tec img {
     transition: all 300ms ease-in-out;
 }
 
-.galeria-img img:hover {
+.galeria-img img:hover, .galeria-img-tec img:hover  {
     transform: translate(-3%, 3%) scale(1.2);
 }
 
