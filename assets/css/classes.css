@@ -1,6 +1,6 @@
 .main-bg {
     background-image: url('../img/mainbg.svg');
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     color: var(--white-color);
 }
@@ -48,8 +48,3 @@ body .full-width {
     overflow-x: auto;
 }
 
-.GitBtn {
-    background-color: var(--primary-color);
-    border-radius: 25px;
-    color: var(--white-color) !important;
-}

@@ -59,6 +59,10 @@
     transform: all 300ms ease-in-out;
 }
 
+.grid-proj a {
+    color: white;
+}
+
 .menu ul li a:hover::after {
     width: 50%;
     left: 25%;
@@ -149,12 +153,12 @@
     overflow: hidden;
 }
 
-.galeria-img img, .galeria-img-tec img {
+.galeria-img img, .galeria-img-tec img, .galeria-img-proj img {
     transition: all 300ms ease-in-out;
 }
 
-.galeria-img img:hover, .galeria-img-tec img:hover  {
-    transform: translate(-3%, 3%) scale(1.2);
+.galeria-img img:hover, .galeria-img-tec img:hover, .galeria-img-proj img:hover  {
+    transform: scale(1.2);
 }
 
 .contact-form {
@@ -352,6 +356,14 @@
       padding: 0.5rem;
       cursor: pointer;
     }
+
+    .galeria-img-proj img {
+        transition: all 300ms ease-in-out;
+    }
+    
+    .galeria-img-proj img:hover  {
+        transform: scale(1.1);
+    }
   
     .close-menu:checked~.menu {
       display: block;
@@ -364,6 +376,13 @@
     .menu-spacing {
       display: none;
     }
+
+    .GitBtn {
+        background-color: var(--primary-color);
+        border-radius: 25px;
+        color: var(--white-color) !important;
+    }
+    
   
     h1 {
       font-size: 4rem;
