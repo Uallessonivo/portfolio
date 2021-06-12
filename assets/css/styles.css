@@ -99,12 +99,12 @@
 }
 
 .about-content {
-  max-width: 84rem;
+  max-width: 74rem;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 
@@ -131,7 +131,6 @@
   gap: var(--gap);
   text-align: center;
 }
-
 
 .grid h3 {
   font-size: 3rem;
@@ -289,7 +288,6 @@
 .contact {
   margin-bottom: 0;
 }
-
 
 @media (max-width: 800px) {
   .intro-img-contact {
