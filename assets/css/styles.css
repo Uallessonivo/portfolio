@@ -99,7 +99,7 @@
 }
 
 .about-content {
-  max-width: 64rem;
+  max-width: 84rem;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
